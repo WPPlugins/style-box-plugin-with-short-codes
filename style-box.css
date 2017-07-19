@@ -1,0 +1,94 @@
+/*
+Description: Style Box Plugin with Short Codes
+Author: Puneet Sahalot
+Author URI: http://icustomizethesis.com/
+Date:20011-05-03
+*/
+
+
+/* Style box ------------------------------------------------------------ */
+.alert, .info, .download, .note, .talk, .finder, .tip, .tool, .twitter, .important, .linux, .windows, .help {
+    display: block;
+    margin: 15px 0;
+    padding: 10px 10px 10px 50px;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-khtml-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	box-shadow: 1px 2px 3px;
+	-moz-box-shadow: 1px 2px 3px;
+	-khtml-box-shadow: 1px 2px 3px;
+	-webkit-box-shadow: 1px 2px 3px;
+}
+
+.alert {
+    background: url("images/alert.png") no-repeat scroll 10px 50% #FFD6D6;
+    border: 3px solid #FE7B7A;
+    color: #CC0000;
+}
+
+.info, .important {
+    background: url("images/info.png") no-repeat scroll 10px 50% #D8E5F8;
+    border: 3px solid #629DE3;
+    color: #0055BB;
+}
+
+.note {
+    background: url("images/note.png") no-repeat scroll 10px 50% #FEF6D8;
+    border: 3px solid #FDE179;
+    color: #B79000;
+}
+
+.download {
+    background: url("images/download.png") no-repeat scroll 10px 50% #EEF7DD;
+    border: 3px solid #C2DF88;
+    color: #57861A;
+}
+
+.tip {
+    background: url("images/tip.png") no-repeat scroll 10px 50% #FDFBB9;
+    border: 3px solid #D0A21E;
+    color: #514C2A;
+}
+
+.finder {
+    background: url("images/finder.png") no-repeat scroll 10px 50% #F2F2F2;
+    border: 3px solid #2A4881;
+    color: #2A4881;
+}
+
+.talk {
+    background: url("images/talk.png") no-repeat scroll 10px 50% #E8F6FC;
+    border: 3px solid #89B4C2;
+    color: #5699AD;
+}
+
+.tool {
+    background: url("images/tool.png") no-repeat scroll 10px 50% #F7F9FF;
+    border: 3px solid #B5B6B5;
+    color: #333333;
+}
+
+.twitter {
+    background: url("images/twitter.png") no-repeat scroll 10px 50% #DAF6FB;
+    border: 3px solid #3997E4;
+    color: #3997E4;
+}
+
+.linux {
+    background: url("images/linux.png") no-repeat scroll 10px 50% #FBF0A0;
+    border: 3px solid #FD7E00;
+    color: #FD7E00;
+}
+
+.windows {
+    background: url("images/windows.png") no-repeat scroll 10px 50% #9CDCF7;
+    border: 3px solid #024A96;
+    color: #024A96;
+}
+
+.help {
+    background: url("images/help.png") no-repeat scroll 10px 50% #EFEFEF;
+    border: 3px solid #3485C7;
+    color: #3485C7;
+}
